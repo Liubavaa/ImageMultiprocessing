@@ -9,7 +9,6 @@ import cv2
 import numpy as np
 import io
 import os
-import datetime
 from typing import List
 
 
@@ -115,7 +114,7 @@ async def process(
         logger.debug('Collage created')
 
         # Save collage
-        output_path = os.path.join(output_folder, f"final_collage_{datetime.datetime.now().strftime("%I:%M")}.png")
+        output_path = os.path.join(output_folder, "final_collage.png")
         Image.fromarray(collage).save(output_path)
         logger.debug('Image saved')
 
