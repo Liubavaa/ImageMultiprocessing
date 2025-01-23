@@ -25,8 +25,8 @@ This project provides a FastAPI-based web service for processing and creating co
 
 1. Clone the repository and navigate to the project folder:
    ```bash
-   git clone <repo_url>
-   cd <repo_folder>
+   git clone https://github.com/Liubavaa/ImageMultiprocessing.git
+   cd ImageMultiprocessing
    ```
 
 2. Build the Docker image:
